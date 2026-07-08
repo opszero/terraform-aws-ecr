@@ -12,6 +12,7 @@ Setup ECR with a compliance policy for SOC2, HIPAA, PCI-DSS.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_force_delete"></a> [force\_delete](#input\_force\_delete) | Force delete the repository | `bool` | `false` | no |
+| <a name="input_max_image_count"></a> [max\_image\_count](#input\_max\_image\_count) | The maximum number of images to keep in the repository before older ones are expired | `number` | `400` | no |
 | <a name="input_name"></a> [name](#input\_name) | The name of the repository | `string` | n/a | yes |
 ## Resources
 
